@@ -1,4 +1,3 @@
-stat_data_manager
-=================
+# Stat Data Manager
 
-Folder containing miscellaneous python scripts for some basic data manipulation and statistical methods
+This directory contains a sole python script for now, so it's really just getting off the ground. The idea is for this directory to contain some perhaps less common manipulations of data, particularly those useful for further statistical analysis, and other statistical methods (hopefully not already available) in python. No guarantee that there aren't better versions of these scripts elsewhere - thoughts and/or links to similar projects are very welcome. 
