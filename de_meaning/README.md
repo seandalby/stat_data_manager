@@ -1,4 +1,4 @@
-# "De"-meaning README
+# "De"-meaning Function
 
 This script defines a function, "demeaning", that centers variables (columns of data) in a .csv file by sub-groups defined by a "group\_var" variable and returns a new .csv file with these variables demeaned. (To center a variable means to subtract the mean of that variable from every row of that variable.) The "group\_var" variable is a column of data that sub-divides the dataset into smaller groups. 
 
@@ -46,9 +46,10 @@ For each row, the mean of each sub-group to which the row belongs has been subtr
 
 The function takes four variables:
 
-* A row\_total variable for the length of your dataset
-* Two paths (in\_file and out\_file) for the file you want to read in and the file you want to create as your output
-* A "group\_var" string value that labels the "grouping" column in your dataset (explained above)
+* A row\_total variable for the length of your dataset (enter as integer)
+* A path for the file you want to read in (enter enclosed in "")
+* A path for the file you want to create as your output (enter enclosed in "")
+* A "group\_var" that labels the "grouping" column in your dataset (enter enclosed in "")
 
 Note the following assumptions the script makes:
 
